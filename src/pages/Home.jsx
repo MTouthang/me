@@ -1,5 +1,13 @@
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
+
 const Home = () => {
-  return <h2 className="text-3xl font-bold underline"> hello </h2>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 };
 
 export default Home;
