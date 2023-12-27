@@ -5,9 +5,9 @@ const Navbar = () => {
       <header className="px-5 py-5 md:px-10">
         <nav className="flex items-center justify-between font-mono text-[#CCD6F6]">
           {/* nav logo */}
-          <div className="bg-[#64FFDA] rounded-sm">
+          <div className="bg-[#64FFDA] rounded-sm ">
             <svg
-              className="bg-[#0A192F] transition ease-in-out  rounded-sm md:h-auto hover:-translate-y-1 hover:-translate-x-1 border-2 border-[#64FFDA]"
+              className="bg-[#0A192F] transition ease-in-out  rounded-sm md:h-auto hover:-translate-y-1 hover:-translate-x-1 border-[1px] border-[#64FFDA]"
               width="80"
               height="30"
               viewBox="0 0 52 14"
