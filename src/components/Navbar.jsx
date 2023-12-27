@@ -48,25 +48,25 @@ const Navbar = () => {
           <div className="flex items-center gap-5">
             <ol className="md:flex gap-6 text-[#CCD6F6] hidden lg:contents">
               <li>
-                <a href="#contact" className="hover:text-[#64FFDA]">
+                <a href="/about" className="hover:text-[#64FFDA]">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#experience" className="hover:text-[#64FFDA]">
+                <a href="experience" className="hover:text-[#64FFDA]">
                   Experience
                 </a>
               </li>
 
               <li>
-                <a href="#work" className="hover:text-[#64FFDA]">
+                <a href="work" className="hover:text-[#64FFDA]">
                   Work
                 </a>
               </li>
 
               <li>
-                <a href="#contact" className="hover:text-[#64FFDA]">
+                <a href="contact" className="hover:text-[#64FFDA]">
                   Contact
                 </a>
               </li>
