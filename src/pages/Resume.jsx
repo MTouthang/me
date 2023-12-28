@@ -1,9 +1,9 @@
-import notFoundPage from '../assets/404.svg';
 import { useNavigate } from 'react-router-dom';
+import ComingSoon from '../assets/comingSoon.svg';
 
-const PageNotFound = () => {
+const Resume = () => {
   const navigate = useNavigate();
-  const text = 'Ops!!! Page not Found';
+  const text = "Coming soon, I'm Working on it";
   const handleBackToHome = () => {
     navigate('/');
   };
@@ -13,7 +13,7 @@ const PageNotFound = () => {
         <div className="mx-auto text-center">
           <img
             className="mx-auto"
-            src={notFoundPage}
+            src={ComingSoon}
             alt="Coming Soon were working on it"
             width={500}
             height={500}
@@ -32,4 +32,4 @@ const PageNotFound = () => {
   );
 };
 
-export default PageNotFound;
+export default Resume;

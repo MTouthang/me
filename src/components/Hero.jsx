@@ -1,5 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
+import { useNavigate } from 'react-router-dom';
 const Hero = () => {
+  const navigate = useNavigate();
+  const handleResume = () => {
+    navigate('/resume');
+  };
   return (
     <>
       <main className="lg:h-[90vh]  md:py-16 relative mx-auto flex items-center justify-center 2xl:h-[90vh] ml-5 md:ml-0 mr-5 md:mr-0">
@@ -24,7 +29,10 @@ const Hero = () => {
             applications.
           </p>
           <div className="hover:bg-[#64FFDA] w-56 rounded ">
-            <button className="px-10 py-3 border-[1px] rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-56 font-mono">
+            <button
+              className="px-10 py-3 border-[1px] rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-56 font-mono"
+              onClick={handleResume}
+            >
               Download Resume
             </button>
           </div>

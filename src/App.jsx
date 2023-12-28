@@ -5,6 +5,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Work from './components/Work';
 import Contact from './components/contact';
+import Resume from './pages/Resume';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
