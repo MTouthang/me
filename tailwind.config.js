@@ -7,6 +7,6 @@ export default {
   // eslint-disable-next-line no-undef
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ['cupcake', 'dark', 'cmyk'],
+    themes: ['light', 'dark', 'cmyk'],
   },
 };
