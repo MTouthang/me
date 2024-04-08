@@ -65,8 +65,8 @@ const Navbar = () => {
           </div>
 
           {/* nav menu items and button  */}
-          <div className="flex items-center gap-5 text-red-600">
-            <ol className="md:flex gap-6 text-[#CCD6F6] hidden lg:contents">
+          <div className="flex items-center gap-5">
+            <ol className="hidden gap-6 md:flex lg:contents">
               <li>
                 <a href="/about" className="hover:text-[#64FFDA]">
                   About
@@ -95,7 +95,7 @@ const Navbar = () => {
               <label className="grid cursor-pointer place-items-center">
                 <input
                   type="checkbox"
-                  value="synthwave"
+                 
                   className="col-span-2 col-start-1 row-start-1 toggle theme-controller bg-base-content"
                   onChange={handleThemeToggle}
                 />
