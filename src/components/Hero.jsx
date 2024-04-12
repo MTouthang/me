@@ -10,17 +10,17 @@ const Hero = () => {
       <main className="lg:h-[90vh]  md:py-16 relative mx-auto flex items-center justify-center 2xl:h-[90vh] ml-5 md:ml-0 mr-5 md:mr-0">
         {/* hero main body  */}
         <div className="w-full mx-auto md:w-2/3">
-          <p className="text-[#64FFDA] font-medium font-mono pt-10 md:pt-0">
+          <p className="text-[#64FFDA] font-medium font-mono pt-10 md:pt-0 drop-shadow-sm">
             Hi, my name is
           </p>
-          <h1 className="font-extrabold md:leading-[65px] text-3xl md:text-6xl text-[#CCD6F6] font-sans">
+          <h1 className="font-extrabold md:leading-[65px] text-3xl md:text-6xl  font-sans">
             Ngamlenmang Touthang
             <br />
-            <span className="text-[#8892B0] text-xl md:text3xl">
+            <span className="text-xl md:text3xl">
               I build things for the web.
             </span>
           </h1>
-          <p className="md:py-8 py-6 md:text-xl text-[#8892B0]">
+          <p className="py-6 md:py-8 md:text-xl ">
             As an Associate Developer specializing in crafting web applications,
             I am currently engaged in creating content, documentation, and
             developing web projects for individuals with a curiosity and
@@ -28,9 +28,9 @@ const Hero = () => {
             focus extends to both the frontend and backend aspects of these
             applications.
           </p>
-          <div className="hover:bg-[#64FFDA] w-56 rounded ">
+          <div className="hover:bg-[#64FFDA] w-60 rounded ">
             <button
-              className="px-10 py-3 border-[1px] rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-56 font-mono"
+              className="px-10 py-3 border-[1px] rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-60 font-mono"
               onClick={handleResume}
             >
               Download Resume
@@ -141,7 +141,7 @@ const Hero = () => {
               </svg>
             </a>
           </div>
-          <div className="w-[0.5px] bg-white h-32"></div>
+          <div className="w-[0.5px] bg-[#64FFDA] h-32"></div>
         </div>
 
         {/* hero main right  */}
@@ -152,7 +152,7 @@ const Hero = () => {
           >
             ngtouthang96@gmail.com
           </a>
-          <div className="w-[0.5px] h-32 bg-white"></div>
+          <div className="w-[0.5px] h-32 bg-[#64FFDA]" ></div>
         </div>
       </main>
     </>

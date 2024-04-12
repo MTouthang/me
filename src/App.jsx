@@ -1,11 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import PageNotFound from './pages/pageNotFound';
-import About from './components/About';
-import Experience from './components/Experience';
+import About from './components/About'
+
 import Work from './components/Work';
-import Contact from './components/contact';
+import Contact from './components/Contact';
 import Resume from './pages/Resume';
+import PageNotFound from './pages/PageNotFound';
+import Experience from './components/Experience';
+
+
+
 function App() {
   return (
     <>
